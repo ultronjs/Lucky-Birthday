@@ -22,7 +22,7 @@ function compareValues(sum,luckyNumber){
     img.setAttribute("id", "celebration-img");
     heading.setAttribute("id", "result-heading");
     resultContainer[0].appendChild(heading)
-    heading.innerHTML= "Congrats!!! your Lucky Number Matchs with Your BirthDay";
+    heading.innerHTML = "Congrats!!! 🎉 Your BirthDay is Lucky";
   }else{
   if (document.getElementById("celebration-img") != null) {
     document.getElementById("celebration-img").remove();
@@ -37,7 +37,7 @@ function compareValues(sum,luckyNumber){
   img.setAttribute("src", "./images/notLucky.png");
   heading.setAttribute("id", "result-heading");
   resultContainer[0].appendChild(heading);
-  heading.innerHTML ="Sorry!!!Your Lucky Number does not Matchs with Your BirthDay";
+  heading.innerHTML = "Sorry 😥 Your BirthDay is not Lucky";
   }
   resultContainer[0].appendChild(img);
 }
